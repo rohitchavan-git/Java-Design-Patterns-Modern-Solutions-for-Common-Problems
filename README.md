@@ -1,4 +1,4 @@
-# Design Patterns with Java 8 Functional Programming
+# [WIP] Design Patterns with Java 8 Functional Programming
 
 Welcome to the **Design Patterns with Java 8 Functional Programming** repository! This repository aims to provide a comprehensive guide to understanding design patterns and their implementation using Java 8's functional programming features. By leveraging the power of functional programming, we can explore new ways of implementing and utilizing design patterns in our software projects.
 
