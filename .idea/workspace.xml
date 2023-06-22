@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f11284d-6e27-4f22-84d3-3aa2d90cd8d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/optional/OptionalPatterns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4f11284d-6e27-4f22-84d3-3aa2d90cd8d1" name="Changes" comment="optional pattern added with does and don't">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/lazy/lazy_evaluation/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/strategy/Sample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/strategy/SampleRefactoringVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/strategy/StrategyPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rohit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rohit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rohit/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home/lib/src.zip!/java.base/java/util/Optional.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,12 +46,126 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "embold_excluded_rules_Java": [
+      "Public Method Return Private Data Structure",
+      "Return In Finally Block",
+      "Direct Object Reference"
+    ],
+    "embold_included_rules_Java": [
+      "Public Cloneable Method Without Final",
+      "Use Of Sysout",
+      "Avoid Non Case Labels In Switch Statement",
+      "Missing Required Cryptographic Step",
+      "Tightly Coupled Class",
+      "Accessing Android External Storage",
+      "Main Should Not Throw Anything",
+      "Sensitive Info Logged",
+      "Authenticate LDAP Connection",
+      "Unsafe Jackson Deserialization",
+      "Finalize Without Super",
+      "Non-ThreadSafe Field Declaration",
+      "Unusual REST Practice",
+      "Big Integer Instantiation",
+      "Avoid NullCipher",
+      "Potential Path Traversal",
+      "Avoid FilecreateTempFile",
+      "Avoid Catching NPE",
+      "Invalid Logging ClassName",
+      "Weak Cipher Algorithm",
+      "Avoid Concatenating Char As String",
+      "RunFinalizersOnExit Should Not Be Called",
+      "Public Static Field Should Be Final",
+      "Empty Synchronized Block",
+      "Clone Without Super",
+      "Missing Break Statement In Switch",
+      "Static Final Array Should Be Private",
+      "String Concatenation In Logging",
+      "Initialization Of SecureRandom At Method Level",
+      "Empty String Should Not Be Used",
+      "Avoid Using Predictable Random Values",
+      "Disabled Spring Securitys CSRF",
+      "Potential Command Injection",
+      "Avoid Synchronized At Method Level",
+      "Improper Validation Of ArrayIndex",
+      "Avoid Throwing Generic Exception",
+      "Log Level Info In Catch Block",
+      "Security Sensitive REGEX",
+      "Avoid Using RSA Algorithm Without OAEP",
+      "Explicit Call To Finalize",
+      "Non-Private Field Access In Synchronized Block",
+      "Run Should Not Be Called Directly",
+      "Unencrypted Server Socket",
+      "Use Of Syserr",
+      "Shortcircuit Logic Should Be Used In Boolean Contexts",
+      "Redirect Without Exit",
+      "Compile REGEX Once",
+      "Sleep In Synchronized Block",
+      "Web Application Contains Main Method",
+      "Error Message Containing Sensitive Data",
+      "Complex REGEX Pattern",
+      "Resource Leak",
+      "Avoid Catching Generic Exception",
+      "Non Serializable In Session",
+      "Preserve StackTrace In Logs",
+      "Should Not Use getRequestedSessionId API",
+      "Maps With Enum Values Replace With EnumMap",
+      "Return Empty Array Or Collection Instead Of Null",
+      "Setting Java Bean Properties",
+      "Comparision Of Object References Instead Of Object Contents",
+      "Variables Should Not Be Self Assigned",
+      "Possible ThreadLeak In ExecutorService",
+      "Mismatch Regex Boundaries Should Not Be Used",
+      "Mutable Object Should Not Reference Public",
+      "Read-Only Transaction",
+      "Do Not Call System Exit",
+      "Cipher With No Integrity",
+      "Exceptions Should Not Be Thrown In Finally Block",
+      "Missing Default Case In Switch",
+      "Sensitive Data In Serializable Class",
+      "Empty Catch Block",
+      "Externalizable Must Have No Arguments Constructor",
+      "Exclude SpringBootApplication And ComponentScan From The Default Package",
+      "Missing Throw In Catch Block",
+      "Unencrypted Socket",
+      "Weak SSLContext",
+      "Databases Should Be Password Protected",
+      "Finalize Method Declare Public"
+    ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rohit.lazy.lazy_evaluation.Sample" />
+      <module name="Design_Pattern_Using_java8_Functional_Style" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rohit.lazy.lazy_evaluation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sample" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,8 +174,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687188797799</updated>
-      <workItem from="1687188799442" duration="4655000" />
+      <workItem from="1687188799442" duration="6400000" />
+      <workItem from="1687451202309" duration="2423000" />
     </task>
+    <task id="LOCAL-00001" summary="optional pattern added with does and don't">
+      <created>1687196865210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687196865210</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +200,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="optional pattern added with does and don't" />
+    <option name="LAST_COMMIT_MESSAGE" value="optional pattern added with does and don't" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
