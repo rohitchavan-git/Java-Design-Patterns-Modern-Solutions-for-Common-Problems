@@ -1,4 +1,4 @@
-package com.rohit.lazy.short_circuting;
+package com.rohit.lazy.eager_evaluation;
 
 public class Sample {
     public static int compute(int number) {
@@ -9,8 +9,9 @@ public class Sample {
 
     public static void main(String[] args) {
         int value = 4;
-
-        if(value > 4 && compute(value) > 100) {
+        // eager evaluation
+        int compute = compute(value);
+        if(value > 4 && compute > 100) {
             System.out.println("path 1");
         } else {
             System.out.println("path 2");
@@ -19,12 +20,3 @@ public class Sample {
 }
 
 //short circuiting
-/*
-David Wheeler:
-In CS we can solve almost any problem by introducing
-one more level of indirection
-
-In procedural code, pointers given the power of indirection
-In OO code, overriding functions given the power of indirection
-In FP, lambdas give the power of indirection
-*/

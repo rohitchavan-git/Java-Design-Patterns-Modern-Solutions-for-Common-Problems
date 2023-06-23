@@ -1,32 +1,33 @@
-package com.rohit.lazy.lazy_evaluation;
+package com.rohit.factory.interface_default_as_factory;
 interface Pet{}
-class Dog implements Pet{}
 class Cat implements Pet{}
-interface Person {
+class Dog implements Pet{}
+interface Person{
     Pet getPet();
     default void play(){
         System.out.println("playing with " + getPet());
     }
 }
-class DogPerson implements Person{
-    private final Dog dog=new Dog();
+class DogLover implements Person{
+    private static final Dog DOG = new Dog();
+    @Override
     public Pet getPet() {
-        return dog;
+        return DOG;
     }
 }
 class CatLover implements Person{
-    private final Cat cat=new Cat();
+    private static final Cat CAT = new Cat();
+    @Override
     public Pet getPet() {
-        return cat;
+        return CAT;
     }
 }
 public class Sample {
-
-    private static void call(Person person){
+    public static void call(Person person){
         person.play();
     }
     public static void main(String[] args) {
-        call(new DogPerson());
         call(new CatLover());
+        call(new DogLover());
     }
 }

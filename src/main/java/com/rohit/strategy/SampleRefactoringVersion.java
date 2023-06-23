@@ -19,7 +19,7 @@ public class SampleRefactoringVersion {
         List<Integer> values = List.of(1,2,3,4,5,6,7,8,9,10);
 
         System.out.println(totalValue(values,number -> true));
-        System.out.println(totalValue(values,number -> number %2 ==0));
+        System.out.println(totalValue(values,number -> number %2 == 0));
         System.out.println(totalValue(values,number -> number % 2 == 1));
 
 

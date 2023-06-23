@@ -40,7 +40,7 @@ public class OptionalPatterns {
         // don't do this
         Optional.ofNullable(null);
 
-        // if you wanted to revert value from the optional chain in that case, use
+        // if you wanted to extract value from the optional chain in that case, use
         String text = nonNullOptionalChain
                 .map(OptionalExample::getText) // extract the text from the optional chain
                 .orElse(EMPTY_STRING); // providing default value if one of the value in the chain
@@ -72,7 +72,7 @@ public class OptionalPatterns {
        List<OptionalExample> dummyExampleList = new ArrayList<>();
        // suppose dummyExampleList coming from the database call it may be null, or it has a lot of elements
        // way 1 . this is one way to handle with a null list
-        List<String> strings = Optional.ofNullable(dummyExampleList)
+        List<String> strings = Optional.of(dummyExampleList)
                 .map(Collection::stream)
                 .orElseGet(Stream::empty)
                 .map(OptionalExample::getText)
