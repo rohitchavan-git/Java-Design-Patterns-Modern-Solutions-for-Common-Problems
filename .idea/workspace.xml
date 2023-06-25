@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f11284d-6e27-4f22-84d3-3aa2d90cd8d1" name="Changes" comment="factory pattern lazy evaluation iterator fluency pattern added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/decorator/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rohit/lazy/lazy_evaluation_lambda/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rohit/lazy/lazy_evaluation_lambda/Sample.java" afterDir="false" />
+    <list default="true" id="4f11284d-6e27-4f22-84d3-3aa2d90cd8d1" name="Changes" comment="decorator pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rohit/enum_as_templete_pattern/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -143,7 +142,12 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.com.rohit.decorator.Sample">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rohit.decorator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.rohit.enum_as_templete_pattern.Sample">
     <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rohit.Fluency.objectAllocation.Sample" />
       <module name="Design_Pattern_Using_java8_Functional_Style" />
@@ -183,6 +187,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.rohit.enum_as_templete_pattern.Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rohit.enum_as_templete_pattern.Sample" />
+      <module name="Design_Pattern_Using_java8_Functional_Style" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rohit.enum_as_templete_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.rohit.iterator.Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rohit.iterator.Sample" />
       <module name="Design_Pattern_Using_java8_Functional_Style" />
@@ -196,26 +213,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.rohit.lazy.lazy_evaluation_lambda.Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rohit.lazy.lazy_evaluation_lambda.Sample" />
-      <module name="Design_Pattern_Using_java8_Functional_Style" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rohit.lazy.lazy_evaluation_lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.rohit.enum_as_templete_pattern.Sample" />
         <item itemvalue="Application.com.rohit.decorator.Sample" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="Application.com.rohit.Fluency.verboss.Sample" />
         <item itemvalue="Application.com.rohit.iterator.Sample" />
-        <item itemvalue="Application.com.rohit.lazy.lazy_evaluation_lambda.Sample" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +234,7 @@
       <workItem from="1687188799442" duration="6400000" />
       <workItem from="1687451202309" duration="3158000" />
       <workItem from="1687539250089" duration="7323000" />
-      <workItem from="1687694019419" duration="1056000" />
+      <workItem from="1687694019419" duration="4262000" />
     </task>
     <task id="LOCAL-00001" summary="optional pattern added with does and don't">
       <created>1687196865210</created>
@@ -255,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687545763304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="decorator pattern">
+      <option name="closed" value="true" />
+      <created>1687700000119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687700000119</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +290,8 @@
     <MESSAGE value="optional pattern added with does and don't" />
     <MESSAGE value="strategy pattern added" />
     <MESSAGE value="factory pattern lazy evaluation iterator fluency pattern added" />
-    <option name="LAST_COMMIT_MESSAGE" value="factory pattern lazy evaluation iterator fluency pattern added" />
+    <MESSAGE value="decorator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="decorator pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
