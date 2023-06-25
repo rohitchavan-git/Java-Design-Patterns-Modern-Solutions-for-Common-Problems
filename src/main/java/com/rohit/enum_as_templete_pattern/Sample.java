@@ -76,7 +76,7 @@ public class Sample {
         List<Student> students=new ArrayList<>();
         students.add(new Student("Urmila", "Math", "123 Main Street", "2020"));
         students.add(new Student("Rohit", "Java", "123 MH Street", "2020"));
-        students.add(new Student("John", "Math", "123 HYD Street", "2021"));
+        students.add(new Student("abc", "Math", "123 HYD Street", "2021"));
         System.out.println(service.filter(students, StudentDashboard.YEAR));
         System.out.println(service.filter(students, StudentDashboard.SUBJECT));
 
