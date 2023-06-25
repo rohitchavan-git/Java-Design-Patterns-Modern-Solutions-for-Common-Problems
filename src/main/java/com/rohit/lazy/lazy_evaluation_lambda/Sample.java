@@ -32,9 +32,11 @@ public class Sample {
     }
 
     private static int compute(int value) {
+        //imagine it take time to compute
         System.out.println("call compute");
         return value * 100;
     }
+
 
 }
 /*
