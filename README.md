@@ -1,6 +1,10 @@
 # [WIP] Java Design Patterns: Modern Solutions for Common Problems
 
-Welcome to the **Design Patterns with Java 8 Functional Programming** repository! This repository aims to provide a comprehensive guide to understanding design patterns and their implementation using Java 8's functional programming features. By leveraging the power of functional programming, we can explore new ways of implementing and utilizing design patterns in our software projects.
+Welcome to the **Java Design Patterns: Modern Solutions** GitHub repository! Here, we explore how design patterns have evolved in Java, leveraging the language's maturation and modern capabilities.
+
+In this repository, we showcase updated approaches to common design problems using Java's native features. We cover patterns like Singleton, Builder, Strategy, Observer, and Decorator. By utilizing Java's advancements, we eliminate boilerplate code and enhance readability, flexibility, and maintainability.
+
+Join us to learn and apply these modern design patterns in Java. Elevate your software design skills and create robust code effortlessly. Let's revolutionize the way we solve problems together!
 
 ## Table of Contents
 
