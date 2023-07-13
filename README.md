@@ -1,4 +1,4 @@
-# [WIP] Java Design Patterns: Modern Solutions for Common Problems
+# Java Design Patterns: Modern Solutions for Common Problems [COMPLETED]
 
 Welcome to the **Java Design Patterns: Modern Solutions** GitHub repository! Here, we explore how design patterns have evolved in Java, leveraging the language's maturation and modern capabilities.
 
